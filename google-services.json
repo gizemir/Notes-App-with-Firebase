@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "525895268285",
+    "project_id": "notes-app-with-firebase-b0609",
+    "storage_bucket": "notes-app-with-firebase-b0609.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:525895268285:android:680c3d395fd6698249c4d4",
+        "android_client_info": {
+          "package_name": "com.gizemir.notesappwithfirebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSS_Fs4-1TZX9RUb6cV4BU0-AcBpotjZI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

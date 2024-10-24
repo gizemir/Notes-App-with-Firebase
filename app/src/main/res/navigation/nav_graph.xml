@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/sessionFragment">
+
+    <fragment
+        android:id="@+id/sessionFragment"
+        android:name="com.gizemir.notesappwithfirebase.SessionFragment"
+        android:label="fragment_session"
+        tools:layout="@layout/fragment_session" >
+        <action
+            android:id="@+id/action_sessionFragment_to_notesFragment"
+            app:destination="@id/notesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/notesFragment"
+        android:name="com.gizemir.notesappwithfirebase.NotesFragment"
+        android:label="fragment_notes"
+        tools:layout="@layout/fragment_notes" >
+        <action
+            android:id="@+id/action_notesFragment_to_editFragment"
+            app:destination="@id/editFragment" />
+        <action
+            android:id="@+id/action_notesFragment_to_sessionFragment"
+            app:destination="@id/sessionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/editFragment"
+        android:name="com.gizemir.notesappwithfirebase.EditFragment"
+        android:label="fragment_edit"
+        tools:layout="@layout/fragment_edit" >
+        <action
+            android:id="@+id/action_editFragment_to_notesFragment"
+            app:destination="@id/notesFragment" />
+    </fragment>
+</navigation>
